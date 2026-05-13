@@ -8,12 +8,12 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : Your Name
+title                    : Garrett Smith
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : Your Name
-description              : Your Name - Projects and CV 
-baseurl                  : "" # Set this to your repo name 
+name                     : Garrett Smith
+description              : Garrett Smith - Projects and CV 
+baseurl                  : "/sp26-portfolio-gasmith04" # Set this to your repo name 
 
 # Theme and Style
 theme: jekyll-theme-minimal
@@ -36,10 +36,13 @@ collections:
 markdown: kramdown
 kramdown:
   input: GFM
+  math_engine: mathjax
+  math_engine_opts:
+    preview: true
+    preview_as_code: true
 
 # Plugins (previously gems:)
 plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-seo-tag
-
